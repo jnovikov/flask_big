@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>List Notes</title>
+</head>
+<body>
+    <h4>Notes</h4>
+    {% for object in objects %}
+        <h5>{{ object["text"] }}</h5>
+    {% endfor %}
+</body>
+</html>
